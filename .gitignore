@@ -6,3 +6,20 @@ __pycache__/
 
 # Dataset original
 data/*.xlsx
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# VS Code
+.vscode/
+
+# Entornos virtuales
+venv/
+.venv/
+
+# Variables de entorno
+.env
