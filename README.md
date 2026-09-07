@@ -87,15 +87,41 @@ Se utilizaron **Matplotlib** y **Seaborn** para representar los principales resu
 
 ## 📈 Principales resultados
 
-Los resultados obtenidos permiten identificar patrones importantes en el comportamiento de las ventas y determinar cuáles son los productos, países y periodos que tienen mayor impacto en los ingresos.
 
-> Esta sección se actualizará con los principales hallazgos obtenidos durante el análisis.
+- **Alta concentración geográfica:** United Kingdom representa aproximadamente el 84,59 % de los ingresos, lo que evidencia una fuerte dependencia del mercado británico.
+
+- **Estacionalidad de las ventas:** Noviembre de 2011 fue el mes con mayores ingresos, alcanzando aproximadamente 1,50 millones. Aunque diciembre presenta una facturación inferior, este resultado debe interpretarse con precaución debido a que el conjunto de datos solamente contiene información hasta el 9 de diciembre de 2011.
+
+- **Productos de alto volumen:** PAPER CRAFT, LITTLE BIRDIE fue el producto con mayor cantidad de unidades vendidas, con 80.995 unidades.
+
+- **Productos de mayor facturación:** REGENCY CAKESTAND 3 TIER generó los mayores ingresos entre los productos analizados, con 174.156,54.
+
+- **Concentración de clientes:** algunos clientes generan una proporción importante de los ingresos. El cliente 14646 fue el de mayor facturación, con 280.206,02.
+
+- **Frecuencia y valor no son lo mismo:** el cliente con mayor número de compras fue el 12748, con 210 facturas, mientras que el cliente 14646 lideró en ingresos. Esto demuestra que la frecuencia de compra y el valor generado deben analizarse como métricas diferentes.
 
 ## 💡 Conclusiones
 
-El análisis permitió aplicar un flujo completo de trabajo de análisis de datos utilizando Python, desde la limpieza y transformación de los datos hasta la generación de visualizaciones y obtención de conclusiones.
+El análisis permitió identificar patrones relevantes en el comportamiento de las ventas, los productos, los mercados y los clientes. Los resultados muestran una fuerte concentración de los ingresos en Reino Unido y en determinados clientes y productos.
 
-Este proyecto también permitió fortalecer el manejo de **Pandas, NumPy, Matplotlib y Seaborn**, así como las buenas prácticas de organización y documentación de proyectos.
+El análisis temporal también permitió identificar variaciones importantes en los ingresos a lo largo del período estudiado, destacándose noviembre de 2011 como el mes de mayor facturación.
+
+Finalmente, el análisis de clientes demuestra que la frecuencia de compra no necesariamente representa un mayor valor económico, por lo que resulta conveniente considerar conjuntamente métricas como ingresos, frecuencia y ticket promedio para evaluar el comportamiento de los clientes.
+
+## 📊 Visualizaciones
+
+### Top 10 productos por ingresos
+
+![Top 10 productos por ingresos](images/top_10_productos_ingresos.png)
+
+### Top 10 países por ingresos
+
+![Top 10 países por ingresos](images/top_10_paises_ingresos.png)
+
+### Frecuencia de compra e ingresos
+
+![Frecuencia de compra e ingresos](images/frecuencia_compra_ingresos.png)
+
 
 ## 🚀 Próximos pasos
 
