@@ -122,6 +122,11 @@ Finalmente, el análisis de clientes demuestra que la frecuencia de compra no ne
 
 ![Frecuencia de compra e ingresos](images/frecuencia_compra_ingresos.png)
 
+## 📓 Notebook
+
+El análisis completo, incluyendo la exploración, limpieza, transformación, visualización y conclusiones, se encuentra en el siguiente notebook:
+
+👉 **[Ver análisis completo](notebooks/online-retail-sales-analysis.ipynb)**
 
 ## 🚀 Próximos pasos
 
