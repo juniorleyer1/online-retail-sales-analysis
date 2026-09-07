@@ -128,6 +128,12 @@ El análisis completo, incluyendo la exploración, limpieza, transformación, vi
 
 👉 **[Ver análisis completo](notebooks/online-retail-sales-analysis.ipynb)**
 
+## 📂 Dataset
+
+El dataset utilizado en este proyecto corresponde al conjunto de datos **Online Retail** de UCI Machine Learning Repository.
+
+👉 **[Descargar Online Retail.xlsx](https://archive.ics.uci.edu/dataset/352/online%2Bretail)**
+
 ## 🚀 Próximos pasos
 
 Como continuación del proyecto, se podrían desarrollar:
