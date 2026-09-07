@@ -1,4 +1,8 @@
+# Python
 __pycache__/
 .ipynb_checkpoints/
 *.pyc
 .env
+
+# Dataset original
+data/*.xlsx
